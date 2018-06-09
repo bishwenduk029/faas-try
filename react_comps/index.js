@@ -1,7 +1,7 @@
 "use strict"
 var React = require('react');
 var ReactDOMServer  = require('react-dom/server');
-var App = require('./app');
+import App from './app';
 
 module.exports = (context, callback) => {
     var html = ReactDOMServer.renderToStaticMarkup(<App />);
