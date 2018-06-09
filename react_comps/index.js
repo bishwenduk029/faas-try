@@ -1,5 +1,5 @@
 "use strict"
-var React 
+var React = require('react');
 var ReactDOMServer  = require('react-dom/server');
 var App = require('./app');
 
