@@ -4,8 +4,9 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "build": "parcel build index.js --out-file ./handler.js --out-dir .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build ./selfName/index.js --out-file ./handler.js --out-dir .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local:run": "yarn run build && node invoke.js"
   },
   "keywords": [],
   "author": "",
