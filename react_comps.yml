@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://kunbi01-i10513:8080
+
+functions:
+  react_comps:
+    lang: node
+    handler: ./react_comps
+    image: react_comps
